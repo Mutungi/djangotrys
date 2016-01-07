@@ -1,0 +1,78 @@
+<html>
+<head>
+<style type="text/css">
+<!--
+#Layer1 {
+	position:absolute;
+	width:523px;
+	height:317px;
+	z-index:1;
+	left: 401px;
+	top: 151px;
+	background-color: #666666;
+	border-radius: 6px;
+}
+#Layer2 {
+	position:absolute;
+	width:540px;
+	height:347px;
+	z-index:2;
+	left: 673px;
+	top: 151px;
+	background-color: #666666;
+	border-radius: 6px;
+}
+#Layer3 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	border-radius: 6px;
+}
+#Layer4 {
+	position:absolute;
+	width:284px;
+	height:174px;
+	z-index:3;
+	left: 123px;
+	top: 76px;
+	border-radius: 6px;
+}
+body {
+	background-color: #999999;
+}
+#Layer5 {
+	position:absolute;
+	width:200px;
+	height:115px;
+	z-index:3;
+	left: 97px;
+	top: 21px;
+	border-radius: 6px;
+}
+-->
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<title></title>
+<body bg color="#808080">
+<body>
+
+<h1><b><center><font size ="1000"><font color="Blue">{{ Header }}</center></font></b></h1></font>
+
+<div id="Layer1">
+
+	  <div id="Layer4">
+	  <form method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<button type="submit">Save</button>
+    </form>
+  </div>
+	  
+
+</div>
+
+
+</body>
+
+</html>
